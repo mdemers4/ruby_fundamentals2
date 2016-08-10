@@ -6,6 +6,8 @@ def is_number?(obj)
 	obj.to_s == obj.to_i.to_s
 end
 
+
+
 def get_int()
 	puts "enter a temperature in fahrenheit"
 	temp_in_fahrenheit = gets.chomp
@@ -17,8 +19,6 @@ def get_int()
 		get_int()
 	end
 end
-
-
 
 def fahrenheit_to_celsius (fahrenheit)
 	f = fahrenheit.to_i
